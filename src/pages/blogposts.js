@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 const BlogPosts = ({ data }) => {
-  console.log(data);
+  //console.log(data);
   const blogPosts = data.allContentfulBlogPost.edges;
   return (
     <Layout>

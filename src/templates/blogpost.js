@@ -39,6 +39,15 @@ export const pageQuery = graphql`
           url
         }
       }
+      contentBlocks {
+        __typename
+        text
+        image {
+          file {
+            url
+          }
+        }
+      }
       tags
     }
   }
